@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bootstrap.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div class="main-body">
+    <!--  here we used navigation-bar with fixed-top and buttons,log-->
+    <nav class="navbar sticky-top  navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid ">
+        <a class="navbar-brand" href="#">
+          <img src="./images/logo-footer.png">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                Services
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item active" href="#">Application developement</a></li>
+                <li><a class="dropdown-item" href="#">Appliction maintenance</a></li>
+                <li><a class="dropdown-item" href="#">Database Administration</a></li>
+                <li><a class="dropdown-item" href="#">Digital Marketing Services</a></li>
+                <li><a class="dropdown-item" href="#">Accounts and Audit Services</a></li>
+                <li><a class="dropdown-item" href="#">Media Services</a></li>
+                <li><a class="dropdown-item" href="#">TOurism Services</a></li>
+                <li><a class="dropdown-item" href="#">Consulting Services</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portifolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Careers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+          aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+          aria-label="Slide 6"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"
+          aria-label="Slide 7"></button>
+      </div>
+      <div class="carousel-inner ">
+        <div class="carousel-item active">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-6">
+                <div class="banner-text">
+                  <h1 class="wow fadeInLeft" data-wow-delay="0.1s">Website Development</h1>
+                  <p class="wow fadeInLeft" data-wow-delay="0.2s">The results of our Website Development Service and
+                    Agile Web Development process together rise above each part of value needed to convey
+                    high-performing sites.</p>
+                  <p>Be it Ecommerce or company portfolios, we ensure amazing, mobile-friendly interfaces for your
+                    website. Be it color or animations our in-house design team ensures you get the best finish that’s
+                    up to the mark in global standards.</p>
+                </div>
+              </div>
+              <div class=" image1 col-12 col-md-6 ">
+                <img src="./images/website-development-services-company.jpeg">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-6">
+                <div class="banner-text">
+                  <h1 class="wow fadeInLeft" data-wow-delay="0.1s">Website Maintenance</h1>
+                  <p class="wow fadeInLeft" data-wow-delay="0.2s">Website maintenance is the method involved with
+                    verifying whether your website is sound and performing great. It's tied in with staying aware of
+                    safety refreshes, new substance, empowering traffic development, and ensuring your website guests
+                    are cheerful.</p>
+                </div>
+              </div>
+              <div class=" image1 col-12 col-md-6 ">
+                <img src="./images/website-maintenance-services-company.jpeg">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-6">
+                <div class="banner-text">
+                  <h1 class="wow fadeInLeft" data-wow-delay="0.1s">Database Administration</h1>
+                  <p class="wow fadeInLeft" data-wow-delay="0.2s">Ocimum has been giving top tier on location and
+                    distant DBA administrations for Oracle, SQL Server, and other data set innovations. Our staff
+                    comprises of affirmed experts fit for dealing with the most complex information base structures. We
+                    can give the right expert to all of your DBA necessities.</p>
+                </div>
+              </div>
+              <div class=" image1 col-12 col-md-6 ">
+                <img src="./images/database-administration.png">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-6">
+                <div class="banner-text">
+                  <h1 class="wow fadeInLeft" data-wow-delay="0.1s">Digital Marketing Services</h1>
+                  <p class="wow fadeInLeft" data-wow-delay="0.2s">Each effective computerized promoting effort should be
+                    information driven. With an advanced digital marketing services from Ocimum Business Services and
+                    you'll get a market investigation of your site and competitors analysis. This gives a make way to
+                    quantifiably further develop your website SEO and PPC execution and create more leads and deals.</p>
+                </div>
+              </div>
+              <div class=" image1 col-12 col-md-6 ">
+                <img src="./images/digital-marketing-services.jpeg">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-6">
+                <div class="banner-text">
+                  <h1 class="wow fadeInLeft" data-wow-delay="0.1s">Media Services</h1>
+                  <p class="wow fadeInLeft" data-wow-delay="0.2s">All Media Services is hanging around for yourself as
+                    well as your business. We're here to assist you with taking your business to one more level by
+                    giving you the apparatuses expected to become on the web. Numerous entrepreneurs can't carve out the
+                    opportunity to adjust their bustling timetable and give the time required for their web-based media
+                    accounts. Perhaps you've been provided a very significant expense estimate that was only irrational
+                    for your organization to pay.</p>
+                </div>
+              </div>
+              <div class=" image1 col-12 col-md-6 ">
+                <img src="./images/media-services.jpg">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-6">
+                <div class="banner-text">
+                  <h1 class="wow fadeInLeft" data-wow-delay="0.1s">Tourism Services</h1>
+                  <p class="wow fadeInLeft" data-wow-delay="0.2s">The travel industry and travel-related administrations
+                    incorporate administrations given by hotels , transport and catering , travel services and tour
+                    operator services, tourist guide services and other related services. A pivotal part of exchange the
+                    travel industry administrations is the cross-line development of customers.</p>
+                </div>
+              </div>
+              <div class=" image1 col-12 col-md-6 ">
+                <img src="./images/tour-operator.jpeg">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-6">
+                <div class="banner-text">
+                  <h1 class="wow fadeInLeft" data-wow-delay="0.1s">Consulting Services</h1>
+                  <p class="wow fadeInLeft" data-wow-delay="0.2s">Our management consulting services focus on our
+                    clients' most critical issues and opportunities: strategy, marketing, organization, operations,
+                    technology, transformation, digital, advanced analytics, corporate finance, mergers & acquisitions
+                    and sustainability across all industries and geographies. We bring deep, functional expertise, but
+                    are known for our holistic perspective: we capture value across boundaries and between the silos of
+                    any organization. We have proven a multiplier effect from optimizing the sum of the parts, not just
+                    the individual pieces.</p>
+                </div>
+              </div>
+              <div class=" image1 col-12 col-md-6 ">
+                <img src="./images/consulting-services.jpeg">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="carousel-item">
+      <div class="container">
+        <div class="row ">
+          <div class="col-12 col-md-6 ">
+            <div class="banner-text ">
+              <h1 class="wow fadeInLeft" data-wow-delay="0.1s">Consulting Services</h1>
+              <p class="wow fadeInLeft" data-wow-delay="0.2s">Our management consulting services focus on our clients'
+                most critical issues and opportunities: strategy, marketing, organization, operations, technology,
+                transformation, digital, advanced analytics, corporate finance, mergers & acquisitions and
+                sustainability across all industries and geographies. We bring deep, functional expertise, but are known
+                for our holistic perspective: we capture value across boundaries and between the silos of any
+                organization. We have proven a multiplier effect from optimizing the sum of the parts, not just the
+                individual pieces.</p>
+            </div>
+          </div>
+          <div class=" image1 col-12 col-md-6 border border-primary">
+            <img src="./consulting-services.jpeg">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+    <section class="about-home section-lg">
+      <div class="container-passion">
+        <h2 class="con"> Imaginative difficulties are our passion
+        </h2>
+        <div class="row  align-items-lg-center">
+          <div class="col-lg-7 text-center text-lg-left">
+            <div class="box text-center">
+              <div class="con">
+                <img src="./images/about-home.png" class="img-fluid maxWidth-400">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 col-xl-5">
+            <div class="box">
+              <h3 class="con"> Creative challenges are our passion
+              </h3>
+              <p class="mb-3">Our designers and developers work
+                closely together to build a <br> creative and
+                positive working environment. Functionality is as <br>important to us as aesthetics.
+              </p>
+              <button class="btn1">Read more</button>
+              <button class="btn2">Contact us</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  -->
+    <div class="container-section">
+      <div class="header-section">
+        <h1>We provide a wide range of services</h1>
+      </div>
+      <div class="service-items">
+        <div class="service-items-1">
+          <img src="./screenshots/Screenshot 2023-08-09 163229.png" alt="">
+          <h3>Website development</h3>
+          <p>Ocimum custom Website development administrations give the IT spine to our customers business. Our master
+            specialized group comprehends your Website prerequisites completely, plans engineering, creates.</p>
+          <p>Read more ➜</p>
+        </div>
+        <div class="service-items-1">
+          <img src="./screenshots/Screenshot 2023-08-09 163229.png" alt="">
+          <h3>Website maintenance</h3>
+          <p>Acting in-house Website support is a tedious undertaking, making it an costly recommendation for any
+            organization. At the point when you draw in Ocimum Website Maintenance Services, you are relegated a group
+            of ocimum family
+          </p>
+          <p>Read more ➜</p>
+        </div>
+        <div class="service-items-1">
+          <img src="./screenshots/Screenshot 2023-08-09 163229.png" alt="">
+          <h3>database Administration</h3>
+          <p>Re-appropriating Database Administration (DBA) administrations as a way to diminish IT costs is the thing
+            to get done.
+            DBA administrations brings about better framework execution, empowering high effectiveness and lower cost
+          </p>
+          <p>Read more ➜</p>
+        </div>
+        <div class="service-items-1">
+          <img src="./screenshots/Screenshot 2023-08-09 163229.png" alt="">
+          <h3>Digital Marketing Services</h3>
+          <p>Each effective computerized promoting effort should be information driven. With an advanced digital
+            marketing services. This gives a make way to quantifiably further develop your website SEO and PPC execution
+            and create more leads and deals.
+          </p>
+          <p>Read more ➜</p>
+        </div>
+        <div class="service-items-1">
+          <img src="./screenshots/Screenshot 2023-08-09 163229.png" alt="">
+          <h3>Audit Services</h3>
+          <p>Our auditors gives the Statutory Audit administrations to our customers to keep up with their fiscal
+            reports like P&L.Audit Services are Company registeration, GST registeration, Income tax filling , GST
+            filling, Company compliance..
+          </p>
+          <p>Read more ➜</p>
+        </div>
+        <div class="service-items-1">
+          <img src="./screenshots/Screenshot 2023-08-09 163229.png" alt="">
+          <h3>Media Services</h3>
+          <p>All Media Services is hanging around for yourself as well as your business. We're here to assist your
+            business to web.Numerous entrepreneurs can't carve out the opportunity to adjust their bustling timetable
+            and give the time required for their media accounts...
+          </p>
+          <p>Read more ➜</p>
+        </div>
+        <div class="service-items-1">
+          <img src="./screenshots/Screenshot 2023-08-09 163229.png" alt="">
+          <h3>Tourism Services</h3>
+          <p>The travel industry and travel-related administrations incorporate administrations given by hotels ,
+            transport and catering , travel services and tour operator services, tourist guide services and other
+            related services. Administrations is the cross-line
+            development of customers...
+          </p>
+          <p>Read more ➜</p>
+        </div>
+        <div class="service-items-1">
+          <img src="./screenshots/Screenshot 2023-08-09 163229.png" alt="">
+          <h3>Consulting Services</h3>
+          <p>Our management consulting services and opportunities , strategy, marketing, organization, operations,
+            technology, transformation, digital, advanced analytics,
+            across all industries. We capture value across boundaries and between the silos of any organization..
+          </p>
+          <p>Read more ➜</p>
+        </div>
+
+      </div>
+
+    </div>
+    <!--  -->
+    <div class="contact-section d-flex">
+      <div class="contact-left">
+        <h4>If you have any questions, please <br>contact us</h4>
+        <p>Our professional support team try to do their best to provide you <br>with high-quality consultations
+          concerning any questions about <br>our services</p>
+        <button class="btn1">Read more</button>
+        <button class="btn2">Get in touch</button>
+      </div>
+      <div class="contact-right">
+        <img src="./screenshots/contact-home.png" alt="">
+      </div>
+    </div>
+    <!-- choose-projects-section -->
+    <div class="choose-projects">
+      <div class="choose-left">
+        <div class="boxes">
+          <h4>100+</h4>
+          <p>Projects completed by our team of web designers and <br>developer</p>
+        </div>
+        <div class="boxes">
+          <h4>79</h4>
+          <p>Experts in Application development & Website design, branding, and digital marketing solutions.</p>
+        </div>
+        <div class="boxes">
+          <h4>2000+</h4>
+          <p>Customers who were satisfied with our work</p>
+        </div>
+        <div class="boxes">
+          <h4>100%</h4>
+          <p>Positive reviews sent by our first-time and regular <br> customersr</p>
+        </div>
+      </div>
+      <div class="choose-right">
+        <h2>Why choose our company for your projects?</h2>
+        <p>We are a team of professional and enthusiastic people, who like what they do and are always in the process of
+          growing and improving their skills.</p>
+      </div>
+    </div>
+    <!--  It's about vission and mission-->
+    <div class="motive-section">
+      <div class="motive-heading">
+        <h2>Our vision and mission</h2>
+      </div>
+      <div class="vision-mission d-flex">
+        <div class="vision-left">
+          <img src="./images/ideas.png" alt="">
+          <strong> &nbsp; Vision</strong>
+          <p>To visualize change in the software market, as an opportunity to grow; to use our services and ability to
+            develop and produce ingenious solutions that <br> satisfy emerging customer needs.</p>
+        </div>
+        <div class="mission-right">
+          <img src="./images/goal.png" alt=""><strong>&nbsp; Mission</strong>
+          <p>We provide radical solutions to enhance the business of our customers, whilst creating better technologies
+            that benefit both the customer and the <br> environment.</p>
+        </div>
+      </div>
+    </div>
+    <!--  contact-section filling details-->
+    <div class="contact-box d-flex justify-content-center !important p-5 ">
+      <div class="contact-image-left">
+        <img src="./images/contact.png" alt="">
+      </div>
+      <div class="contact-information p-5 text-center">
+        <div class="contact-information-left">
+          <h3>Get in touch with our team</h3>
+          <div class="contact-details">
+            <input type="Your Name" placeholder="Your Name">
+            <input type="Your Name" placeholder="Email Address">
+            <input type="Your Name" placeholder="Phone">
+            <input type="Your Name" placeholder="Your Message">
+          </div>
+          <div class="send-btn">
+            <button>send</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  scrolling from right to left-->
+    <marquee>
+      <img src="./sliders/php-mysql-website-development.png" alt="">
+      <img src="./sliders/dot-net-website-development.jpeg" alt="">
+      <img src="./sliders/java-application.jpeg" alt="">
+      <img src="./sliders/html-website-development.jpeg" alt="">
+      <img src="./sliders/css-website-development.jpeg" alt="">
+      <img src="./sliders/javascript-website-development.jpeg" alt="">
+      <img src="./sliders/jquery-website-development.jpeg" alt="">
+      <img src="./sliders/node-js-website-development.jpeg" alt="">
+      <img src="./sliders/angular-js-website-development.jpeg" alt="">
+      <img src="./sliders/react-js-website-development.png" alt="">
+      <img src="./sliders/vue-js-website-development.png" alt="">
+      <img src="./sliders/drupal-website-development.jpeg" alt="">
+      <img src="./sliders/magento-website-development.jpeg" alt="">
+      <img src="./sliders/joomla-website-development.jpeg" alt="">
+      <img src="./sliders/laravel-website-development.png" alt="">
+      <img src="./sliders/codeinator-website-development.png" alt="">
+      <img src="./sliders/python-application.jpeg" alt="">
+      <img src="./sliders/windows-mobile-app.jpeg" alt="">
+      <img src="./sliders/android-mobile-app.jpeg" alt="">
+      <img src="./sliders/ios-mobile-app.jpeg" alt="">
+    </marquee>
+    <!--Disclaimer-section  -->
+    <div class="Diclaimer-section">
+      <div class="logo-footer">
+        <img src="./sliders/logo-footer.png" alt="">
+        <ul>
+          <li>Phone:<span>+91 94938 60077</span></li>
+          <li>Mail: <span>info@ocimumservices.com</span></li>
+        </ul>
+      </div>
+      <div class="Disclaimer-box d-flex">
+        <div class="title1">
+          <h4>Services</h4>
+          <ul>
+            <li>Website Development</li>
+            <li>Application Maintenance</li>
+            <li>Database Administration</li>
+            <li>Digital Marketing Services</li>
+          </ul>
+        </div>
+        <div class="title2">
+          <h4> Other Services</h4>
+          <ul>
+            <li>Media Services</li>
+            <li>Tourism Services</li>
+            <li>Consulting Services</li>
+          </ul>
+        </div>
+        <div class="title3">
+          <h4>About Company</h4>
+          <ul>
+            <li>About us</li>
+            <li>Our vision and <br>mission</li>
+            <li>Contact us</li>
+          </ul>
+        </div>
+        <div class="title4">
+          <h4>Our Social Networks</h4>
+          <p>Join us in the social <br>networks to receive the <br>latest news and <br>updates.</p>
+          <ul>
+            <li> <i class="fa-brands fa-linkedin-in fa-sm" style="color: #00a1f7;"></i></li>
+            <li><i class="fa-brands fa-facebook-f fa-sm" style="color: #00a1f7;"></i></li>
+            <li><i class="fa-brands fa-twitter" style="color: #00a1f7;"></i></li>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End section -->
+  <div class="rights-reserved">
+    <p>© 2021 Ocimum. All Rights Reserved.</p>
+  </div>
+  </div>
+</body>
+</html>
